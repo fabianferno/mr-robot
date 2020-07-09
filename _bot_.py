@@ -28,6 +28,8 @@ com = ["jessi", "class", "feeling", "sayhello", "said", "gd", "johnny", "rascal"
 
 ran = random.choice(com)
 
+#testing the version control system
+
 
 @bot.command(name="name")
 async def _name(ctx):
