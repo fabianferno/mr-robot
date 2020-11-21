@@ -31,15 +31,6 @@ ran = random.choice(com)
 #testing the version control system
 
 
-@bot.command(name="name")
-async def _name(ctx):
-    channel = ctx.author.voice.channel
-    voice = get(bot.voice_clients, guild=ctx.guild)
-    if voice:
-        await voice.disconnect()
-    vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('mr.robot.wav'), after=lambda e: print(f'Done\n', '_' * 10))
-
 
 @bot.command(name="leave")
 async def leave(ctx):
@@ -59,6 +50,15 @@ async def leave(ctx):
     print(f"\n{ctx.author} shut me down")
     exit()
 
+@bot.command(name="name")
+async def _name(ctx):
+    channel = ctx.author.voice.channel
+    voice = get(bot.voice_clients, guild=ctx.guild)
+    if voice:
+        await voice.disconnect()
+    vc = await channel.connect()
+    vc.play(discord.FFmpegPCMAudio('audio/mr.robot.wav'), after=lambda e: print(f'Done\n', '_' * 10))
+
 
 @bot.command(name='kanmani', pass_context=True)
 async def kanmani(ctx):
@@ -67,7 +67,7 @@ async def kanmani(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('Kanmani-Anbodu.mp3'), after=lambda e: print(f'Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/Kanmani-Anbodu.mp3'), after=lambda e: print(f'Done\n', '_' * 10))
 
 
 @bot.command(name='jessi', pass_context=True)
@@ -77,7 +77,7 @@ async def jessi(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('jessi.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/jessi.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='yeo', pass_context=True)
@@ -87,7 +87,7 @@ async def jessi(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('raja_rani.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/raja_rani.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='class', pass_context=True)
@@ -97,7 +97,7 @@ async def cl(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('vasulraja_class.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/vasulraja_class.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='feeling', pass_context=True)
@@ -107,7 +107,7 @@ async def feel(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    await vc.play(discord.FFmpegPCMAudio('each_girl_each_feel.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    await vc.play(discord.FFmpegPCMAudio('audio/each_girl_each_feel.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='sayhello', pass_context=True)
@@ -117,7 +117,7 @@ async def hfrnd(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('Say_Hello_To_My_Little_Friend.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/Say_Hello_To_My_Little_Friend.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='said', pass_context=True)
@@ -127,7 +127,7 @@ async def said(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('said.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/said.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='gd', pass_context=True)
@@ -137,7 +137,7 @@ async def gd(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('im_gd.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/im_gd.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='johnny', pass_context=True)
@@ -147,7 +147,7 @@ async def shine(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('here_jonny.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/here_jonny.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='rascal', pass_context=True)
@@ -157,7 +157,7 @@ async def rascal(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('rascal.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/rascal.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='alone', pass_context=True)
@@ -167,7 +167,7 @@ async def alone(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('alone.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/alone.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='msg', pass_context=True)
@@ -177,7 +177,7 @@ async def msg(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('message.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/message.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='fam', pass_context=True)
@@ -187,7 +187,7 @@ async def fam(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('laaa_la_la_laa.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/laaa_la_la_laa.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='oho', pass_context=True)
@@ -197,7 +197,7 @@ async def oho(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('diluwale.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/diluwale.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='happy', pass_context=True)
@@ -207,7 +207,7 @@ async def happy(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('be_happy.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/be_happy.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='canada', pass_context=True)
@@ -217,7 +217,7 @@ async def canada(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('canadala_periya_drums_player.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/canadala_periya_drums_player.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='yblood', pass_context=True)
@@ -227,7 +227,7 @@ async def yblood(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('why_blood_same_blood.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/why_blood_same_blood.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='money', pass_context=True)
@@ -237,7 +237,7 @@ async def money(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('money_comes_today_goes_tomorrow.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/money_comes_today_goes_tomorrow.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='steve', pass_context=True)
@@ -247,7 +247,7 @@ async def steve(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('i_am_steve_wak.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/i_am_steve_wak.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='bestfrnd', pass_context=True)
@@ -257,7 +257,7 @@ async def best_frnd(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('i_am_your_best_frnd.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/i_am_your_best_frnd.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='raama', pass_context=True)
@@ -267,7 +267,7 @@ async def raama(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('aiyo_rama.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/aiyo_rama.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='paavam', pass_context=True)
@@ -277,7 +277,7 @@ async def pavam(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('ungala_paatha_paavama_iruku.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/ungala_paatha_paavama_iruku.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='coffee', pass_context=True)
@@ -287,7 +287,7 @@ async def sukku(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('sukku_coffee.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/sukku_coffee.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='sangeetha', pass_context=True)
@@ -297,7 +297,7 @@ async def sng(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('sangeetha.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/sangeetha.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='amuk', pass_context=True)
@@ -307,7 +307,7 @@ async def dumuk(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('amal_dumal.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/amal_dumal.mp3'), after=lambda e: print('Done\n', '_' * 10))
     vc.is_playing()
 
 
@@ -318,7 +318,7 @@ async def thala(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('ena_thala.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/ena_thala.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name='pokiri', pass_context=True)
@@ -328,7 +328,7 @@ async def pok(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio('pokkiri.mp3'), after=lambda e: print('Done\n', '_' * 10))
+    vc.play(discord.FFmpegPCMAudio('audio/pokkiri.mp3'), after=lambda e: print('Done\n', '_' * 10))
 
 
 @bot.command(name="s")
