@@ -1,7 +1,7 @@
 import discord
 import random
 import asyncio
-import youtube_dl
+#import youtube_dl
 import json
 import shutil
 import os
@@ -11,7 +11,7 @@ from discord.utils import get
 
 # from discord.voice_client import VoiceClient
 
-TOKEN = 'NzI3MDU5OTg0OTg2NDA2OTEy.XvpKQg.nV32LI46fkX3e7PV3x_NtfTHkew'
+TOKEN = 'NzI3MDU5OTg0OTg2NDA2OTEy.XvmVYA.5w6cPraEGQqKks9_TqqLFlIAOHw'
 bot = commands.Bot(command_prefix=['mr ', 'Mr '])
 
 
@@ -27,10 +27,6 @@ com = ["jessi", "class", "feeling", "sayhello", "said", "gd", "johnny", "rascal"
        "yblood", "steve", "bestfrnd"]
 
 ran = random.choice(com)
-
-#testing the version control system
-
-
 
 @bot.command(name="leave")
 async def leave(ctx):
