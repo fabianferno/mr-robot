@@ -2,4 +2,4 @@
 The discord bot that'll make your day!
 
 
-Made by @Joshuafrankle and @fabianferno
+Made with love by @Joshuafrankle and @fabianferno
