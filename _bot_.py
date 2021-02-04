@@ -3,6 +3,7 @@ import random
 import os
 import io
 import wikipedia
+from discord import FFmpegPCMAudio
 from PIL import Image, ImageDraw, ImageFont
 from gtts import gTTS
 from discord import File
