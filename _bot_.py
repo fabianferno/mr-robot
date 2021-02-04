@@ -10,11 +10,10 @@ from datetime import datetime
 from discord.ext import commands
 from discord.utils import get
 
-TOKEN = "NzI3MDU5OTg0OTg2NDA2OTEy.XvmVYA.afcWx96DnllE9Sk3lQxzwKyltTQ"
-# TOKEN = os.environ["DISCORD_TOKEN"]
+
+TOKEN = os.environ["DISCORD_TOKEN"]
 bot = commands.Bot(command_prefix=['mr ', 'Mr ', 'mr', 'Mr'])
 client = discord.Client()
-
 
 '''@bot.event
 async def on_member_join(member):
