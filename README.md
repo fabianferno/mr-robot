@@ -4,11 +4,14 @@ The discord bot that'll make your day!<br/>
 Made with love by @Joshuafrankle and @fabianferno
 
 <br />
-Invite our bot to your Discord server
+
+Invite our bot to your Discord server 
 <a href="https://discord.com/api/oauth2/authorize?client_id=727059984986406912&permissions=0&scope=bot"><button>
-<h3>Click</h3></button></a>
+Click</button></a>
+
 <br/>
----
+
+
 ### Read our docs to run it on your discord server.
 
 <br/>
