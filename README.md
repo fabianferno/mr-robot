@@ -12,7 +12,7 @@ Invite</button></a> our bot to your Discord server</h1>
 <br/>
 
 
-### Read our docs to run it on your discord server.
+# Or Read our docs to run it on your own server.
 
 <br/>
 <img src="https://media3.giphy.com/media/6pcaPznuZBtL2/giphy.gif">
