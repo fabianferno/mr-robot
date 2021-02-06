@@ -34,6 +34,7 @@ Use: Mr wiki/mr wiki and type the thing you wanna know
 To disconnect me
 Use: Mr/mr leave
 <br />
+<br/>
 
 # Invite our bot to your Discord server
 
