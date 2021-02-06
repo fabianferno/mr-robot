@@ -27,6 +27,8 @@ Type: `Mr/mr luck`
 
 For TTS
 Use: `Mrt/mrt`
+
+
 To know briefly about something
 Use: `Mr/mr wiki` and type the thing you wanna know
 
@@ -64,4 +66,4 @@ Steps to run:
     ```py 
         python _bot_.py
     ```
-5. Use <b>mr about</b> to display the list of commands
+5. Use `mr about` to display the list of commands
