@@ -46,7 +46,7 @@ Use: `mr leave`
 
 <br>
 
-# Or Read our docs to run it on your own machine if the bot is offline.
+# Or Read our docs to run it on your own machine.
 
 <br/>
 <img  src="https://media3.giphy.com/media/6pcaPznuZBtL2/giphy.gif">
