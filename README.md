@@ -20,7 +20,7 @@ Invite</button></a> our bot to your Discord server</h2>
 
 Steps to run:
 
-1. Create or add your Discord Bot Token to environment variable, "DISCORD_TOKEN"
+1. Create and add your Discord Bot Token to environment variable, "DISCORD_TOKEN"
    
 2. Use the following command in the terminal/cmd to get the list dependencies and install them.
     ```cmd
