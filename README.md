@@ -2,7 +2,7 @@
 
 
 The discord bot that'll make your day!<br/>
-Made with love by <strong>@Joshuafrankle</strong> and <strong>@fabianferno</strong>
+Made with love by <div style="color:red">@Joshuafrankle</div> and <div  style="color:red">@fabianferno</div>
 
 In charge of humour, I am
 Make sure you are connected to a voice channel before using the commands
