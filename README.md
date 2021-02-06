@@ -4,6 +4,25 @@
 The discord bot that'll make your day!<br/>
 Made with love by @Joshuafrankle and @fabianferno
 
+In charge of humour, I am
+Make sure you are connected to a voice channel before using the commands
+Prefix each command with  Mr/mr
+jessi | class | feeling | sayhello | said | gd | johnny | rascal | msg | coffee | sangeetha | thala | amuku | yeo | money | pokiri | happy | oho | fam | pavam | rama | canada | yblood | steve | bestfrnd | thirumba | ponnu | ready | tension | nonsense | riddle | identity | ahaan | vambu | varutham | shobba | usupethi | unakenapa | ignore100 | plan | stay | perumai
+
+
+A Karuthu for you
+Get a random voice
+Type: Mr/mr luck
+
+
+For TTS
+Use: Mrt/mrt
+To know briefly about something
+Use: Mr wiki/mr wiki and type the thing you wanna know
+
+
+To disconnect me
+Use: Mr/mr leave
 <br />
 
 # Invite our bot to your Discord server
