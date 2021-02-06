@@ -10,6 +10,7 @@ Made with love by @Joshuafrankle and @fabianferno
 <br/>
 ---
 ### Read our docs to run it on your discord server.
+
 <br/>
 <img src="https://media3.giphy.com/media/6pcaPznuZBtL2/giphy.gif">
 
