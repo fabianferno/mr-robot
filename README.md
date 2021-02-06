@@ -2,7 +2,7 @@
 
 
 The discord bot that'll make your day!<br/>
-## Made with love by <button src="https://github.com/fabianferno">@Joshuafrankle</button> and <button src="https://github.com/Joshuafrankle">@fabianferno</button>
+## Made with love by <a href="https://github.com/Joshuafrankle"><button>@Joshuafrankle</button> </a> and <a href="https://github.com/fabianferno"><button>@fabianferno</button></a>
 
 In charge of humour, I am.
 
