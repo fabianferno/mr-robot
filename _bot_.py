@@ -171,6 +171,7 @@ com = ["jessi", "class", "feeling", "sayhello", "said", "gd", "johnny", "rascal"
        "perumai"]
 
 
+
 @bot.event
 async def on_message(message):
     if message.content == "hello world":
