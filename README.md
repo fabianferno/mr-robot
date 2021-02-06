@@ -5,9 +5,8 @@ Made with love by @Joshuafrankle and @fabianferno
 
 <br />
 
-Invite our bot to your Discord server 
 <a href="https://discord.com/api/oauth2/authorize?client_id=727059984986406912&permissions=0&scope=bot"><button>
-Click</button></a>
+Invite</button></a> our bot to your Discord server
 
 <br/>
 
