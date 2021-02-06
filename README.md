@@ -6,7 +6,7 @@ Made with love by @Joshuafrankle and @fabianferno
 
 In charge of humour, I am
 Make sure you are connected to a voice channel before using the commands
-Prefix each command with <strong>Mr/mr<strong/>
+Prefix each command with `Mr/mr`
 ```
 jessi | class | feeling | sayhello | said |
 gd | johnny | rascal | msg | coffee | sangeetha |
@@ -22,17 +22,17 @@ unakenapa | ignore100 | plan | stay | perumai |
 
 A Karuthu for you
 Get a random voice
-Type: Mr/mr luck
+Type: `Mr/mr luck`
 
 
 For TTS
 Use: Mrt/mrt
 To know briefly about something
-Use: Mr wiki/mr wiki and type the thing you wanna know
+Use: `Mr/mr wiki` and type the thing you wanna know
 
 
 To disconnect me
-Use: Mr/mr leave
+Use: `Mr/mr leave`
 <br />
 <br/>
 
