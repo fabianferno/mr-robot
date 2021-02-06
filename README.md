@@ -9,13 +9,13 @@ Make sure you are connected to a voice channel before using the commands
 Prefix each command with <strong>Mr/mr<strong/>
 ```
 jessi | class | feeling | sayhello | said |
- gd | johnny | rascal | msg | coffee | sangeetha 
- | thala | amuku | yeo | money | pokiri | happy 
- | oho | fam | pavam | rama | canada | yblood 
- | steve | bestfrnd | thirumba | ponnu | ready 
- | tension | nonsense | riddle | identity 
- | ahaan | vambu | varutham | shobba | usupethi 
- | unakenapa | ignore100 | plan | stay | perumai
+ gd | johnny | rascal | msg | coffee | sangeetha |
+ thala | amuku | yeo | money | pokiri | happy |
+ oho | fam | pavam | rama | canada | yblood |
+ steve | bestfrnd | thirumba | ponnu | ready |
+ tension | nonsense | riddle | identity |
+ ahaan | vambu | varutham | shobba | usupethi |
+ unakenapa | ignore100 | plan | stay | perumai
 ```    
  
 
