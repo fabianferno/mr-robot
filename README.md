@@ -8,6 +8,7 @@ In charge of humour, I am.
 
 Make sure you are connected to a voice channel before using the commands
 Prefix each command with `Mr/mr`
+
 ------
 
 `jessi` | `class` | `feeling` | `sayhello` | `said` |
@@ -17,8 +18,7 @@ Prefix each command with `Mr/mr`
 `steve` | `bestfrnd` | `thirumba` | `ponnu` | `ready` |
 `tension` | `nonsense` | `riddle` | `identity` |
 `ahaan` | `vambu` | `varutham` | `shobba` | `usupethi` |
-`unakenapa` | `ignore100` | `plan` | `stay` | `perumai` |
-```    
+`unakenapa` | `ignore100` | `plan` | `stay` | `perumai` | 
 ------
 
 
