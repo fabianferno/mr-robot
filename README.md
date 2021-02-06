@@ -19,15 +19,19 @@ Made with love by @Joshuafrankle and @fabianferno
 
 
 Steps to run:
+1.  Clone the repository to your computer
+    ```cmd
+        git clone https://github.com/fabianferno/mr.robot.git 
+    ```
 
-1. Create and add your Discord Bot Token to environment variable, "DISCORD_TOKEN"
+2. Create and add your Discord Bot Token to environment variable, "DISCORD_TOKEN"
    
-2. Use the following command in the terminal/cmd to get the list dependencies and install them.
+3. Use the following command in the terminal/cmd to get the list dependencies and install them.
     ```cmd
         pip install -r requirements.txt
     ```
-3. Run the bot ;)
+4. Open the folder & run the bot ;)
     ```py 
         python _bot_.py
     ```
-4. Use <b>mr about</b> to display the list of commands
+5. Use <b>mr about</b> to display the list of commands
