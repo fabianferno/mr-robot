@@ -10,7 +10,6 @@ Made with love by @Joshuafrankle and @fabianferno
 
 <a href="https://discord.com/api/oauth2/authorize?client_id=727059984986406912&permissions=0&scope=bot"> <img src="https://media2.giphy.com/media/egALOqi5NrD708rAvK/giphy.gif?cid=ecf05e47ec39038c292b21903c7788e260b6aefa339e49ea&rid=giphy.gif"/></a> 
 
-<img src="https://media2.giphy.com/media/VI3PVWfo2QvQS9PgoG/giphy.gif?cid=ecf05e47ss79k1l9elt018b19k2snusy3wujpsrkxxhb58xt&rid=giphy.gif"/>
 <br>
 
 # Or Read our docs to run it on your own server.
