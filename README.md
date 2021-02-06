@@ -24,7 +24,7 @@ Steps to run:
    
 2. Use the following command in the terminal/cmd to get the list dependencies and install them.
     ```cmd
-        pip install requirements.txt
+        pip install -r requirements.txt
     ```
 3. Run the bot ;)
     ```py 
