@@ -4,7 +4,8 @@
 The discord bot that'll make your day!<br/>
 ## Made with love by <button src="https://github.com/fabianferno">@Joshuafrankle</button> and <button src="https://github.com/Joshuafrankle">@fabianferno</button>
 
-In charge of humour, I am
+In charge of humour, I am.
+
 Make sure you are connected to a voice channel before using the commands
 Prefix each command with `Mr/mr`
 ```
