@@ -4,6 +4,10 @@
 The discord bot that'll make your day!<br/>
 ## Made with love by <a href="https://github.com/Joshuafrankle"><button>@Joshuafrankle</button> </a> and <a href="https://github.com/fabianferno"><button>@fabianferno</button></a>
 
+<div style="display: flex; align-items: center"><h2>Invite our bot to your Discord server</h2><a href="https://discord.com/api/oauth2/authorize?client_id=727059984986406912&permissions=0&scope=bot"> <img src="https://media2.giphy.com/media/egALOqi5NrD708rAvK/giphy.gif?cid=ecf05e47ec39038c292b21903c7788e260b6aefa339e49ea&rid=giphy.gif"  height=auto width="70px"/></a> </div>
+
+---
+
 In charge of humour, I am.
 
 Make sure you are connected to a voice channel before using the commands<br/>
@@ -35,13 +39,6 @@ Use: `mr wiki` and type the thing you wanna know
 
 To disconnect me
 Use: `mr leave`
-<br />
-<br/>
-
-
-# Invite our bot to your Discord server 
-
-<a href="https://discord.com/api/oauth2/authorize?client_id=727059984986406912&permissions=0&scope=bot"> <img src="https://media2.giphy.com/media/egALOqi5NrD708rAvK/giphy.gif?cid=ecf05e47ec39038c292b21903c7788e260b6aefa339e49ea&rid=giphy.gif"  height="200px"/></a> 
 
 
 <br>
