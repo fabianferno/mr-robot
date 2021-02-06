@@ -1,4 +1,4 @@
-# mr.robot
+# mr. robot
 
 
 The discord bot that'll make your day!<br/>
@@ -6,8 +6,11 @@ Made with love by @Joshuafrankle and @fabianferno
 
 In charge of humour, I am
 Make sure you are connected to a voice channel before using the commands
-Prefix each command with  Mr/mr
+Prefix each command with <strong>Mr/mr<strong/>
+```
 jessi | class | feeling | sayhello | said | gd | johnny | rascal | msg | coffee | sangeetha | thala | amuku | yeo | money | pokiri | happy | oho | fam | pavam | rama | canada | yblood | steve | bestfrnd | thirumba | ponnu | ready | tension | nonsense | riddle | identity | ahaan | vambu | varutham | shobba | usupethi | unakenapa | ignore100 | plan | stay | perumai
+```    
+ 
 
 
 A Karuthu for you
