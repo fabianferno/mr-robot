@@ -18,7 +18,7 @@ Prefix each command with `Mr/mr`
 `steve` | `bestfrnd` | `thirumba` | `ponnu` | `ready` |
 `tension` | `nonsense` | `riddle` | `identity` |
 `ahaan` | `vambu` | `varutham` | `shobba` | `usupethi` |
-`unakenapa` | `ignore100` | `plan` | `stay` | `perumai` | 
+`unakenapa` | `ignore100` | `plan` | `stay` | `perumai` |
 --------------------
 
 
@@ -41,7 +41,7 @@ Use: `Mr/mr leave`
 <br/>
 
 
-# Invite our bot to your Discord server
+# Invite our bot to your Discord server 
 
 <a href="https://discord.com/api/oauth2/authorize?client_id=727059984986406912&permissions=0&scope=bot"> <img src="https://media2.giphy.com/media/egALOqi5NrD708rAvK/giphy.gif?cid=ecf05e47ec39038c292b21903c7788e260b6aefa339e49ea&rid=giphy.gif"  height="200px"/></a> 
 
