@@ -278,6 +278,20 @@ async def vambu(ctx):
         await ctx.send("Connect yourself to a voice channel")
 
 
+@bot.command(name="jesin")
+async def jesin(ctx):
+    try:
+        channel = ctx.author.voice.channel
+        voice = get(bot.voice_clients, guild=ctx.guild)
+        if voice:
+            await voice.disconnect()
+        vc = await channel.connect()
+        vc.play(discord.FFmpegPCMAudio('./voices/jesin.mp3'),
+                after=lambda e: print(f'Done\n', '_' * 10))
+    except AttributeError:
+        await ctx.send("Connect yourself to a voice channel")
+
+
 @bot.command(name="varutham")
 async def varutham(ctx):
     try:
