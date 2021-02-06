@@ -17,7 +17,7 @@ tension | nonsense | riddle | identity |
 ahaan | vambu | varutham | shobba | usupethi |
 unakenapa | ignore100 | plan | stay | perumai |
 ```    
- 
+
 
 
 A Karuthu for you <br/>
@@ -26,7 +26,7 @@ Type: `Mr/mr luck`
 
 
 For TTS
-Use: Mrt/mrt
+Use: `Mrt/mrt`
 To know briefly about something
 Use: `Mr/mr wiki` and type the thing you wanna know
 
@@ -45,7 +45,7 @@ Use: `Mr/mr leave`
 # Or Read our docs to run it on your own machine if the bot is offline.
 
 <br/>
-<img height="50px" src="https://media3.giphy.com/media/6pcaPznuZBtL2/giphy.gif">
+<img  src="https://media3.giphy.com/media/6pcaPznuZBtL2/giphy.gif" height="20px">
 
 
 Steps to run:
