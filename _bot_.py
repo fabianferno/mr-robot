@@ -3,6 +3,7 @@ import random
 import os
 import io
 import wikipedia
+from discord import FFmpegPCMAudio
 from PIL import Image, ImageDraw, ImageFont
 from gtts import gTTS
 from discord import File
@@ -170,14 +171,12 @@ com = ["jessi", "class", "feeling", "sayhello", "said", "gd", "johnny", "rascal"
        "perumai"]
 
 
-"""
 @bot.event
 async def on_message(message):
     if message.content == "hello world":
         channel = bot.get_channel(699097908846526474)
         await channel.send(f'Did someone call me?')
-        await bot.process_commands(message)
-"""
+    await bot.process_commands(message)
 
 
 @bot.command(name="leave")
