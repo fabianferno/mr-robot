@@ -8,6 +8,7 @@ In charge of humour, I am.
 
 Make sure you are connected to a voice channel before using the commands
 Prefix each command with `Mr/mr`
+------
 ```
 jessi | class | feeling | sayhello | said |
 gd | johnny | rascal | msg | coffee | sangeetha |
@@ -18,7 +19,7 @@ tension | nonsense | riddle | identity |
 ahaan | vambu | varutham | shobba | usupethi |
 unakenapa | ignore100 | plan | stay | perumai |
 ```    
-
+------
 
 
 A Karuthu for you <br/>
