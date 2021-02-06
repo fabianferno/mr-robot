@@ -9,7 +9,7 @@ In charge of humour, I am.
 Make sure you are connected to a voice channel before using the commands<br/>
 Prefix each command with `mr`
 
-
+### Commands<br/>
 `jessi` | `class` | `feeling` | `sayhello` | `said` |
 `gd` | `johnny` | `rascal` | `msg` | `coffee` | `sangeetha` |
 `thala` | `amuku` | `yeo` | `money` | `pokiri` | `happy` |
