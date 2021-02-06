@@ -38,14 +38,14 @@ Use: `Mr/mr leave`
 
 # Invite our bot to your Discord server
 
-<a href="https://discord.com/api/oauth2/authorize?client_id=727059984986406912&permissions=0&scope=bot"> <img src="https://media2.giphy.com/media/egALOqi5NrD708rAvK/giphy.gif?cid=ecf05e47ec39038c292b21903c7788e260b6aefa339e49ea&rid=giphy.gif"/></a> 
+<a href="https://discord.com/api/oauth2/authorize?client_id=727059984986406912&permissions=0&scope=bot"> <img src="https://media2.giphy.com/media/egALOqi5NrD708rAvK/giphy.gif?cid=ecf05e47ec39038c292b21903c7788e260b6aefa339e49ea&rid=giphy.gif"  height="100px"/></a> 
 
 <br>
 
 # Or Read our docs to run it on your own machine if the bot is offline.
 
 <br/>
-<img  src="https://media3.giphy.com/media/6pcaPznuZBtL2/giphy.gif" height="20px">
+<img  src="https://media3.giphy.com/media/6pcaPznuZBtL2/giphy.gif">
 
 
 Steps to run:
