@@ -7,7 +7,7 @@ The discord bot that'll make your day!<br/>
 In charge of humour, I am.
 
 Make sure you are connected to a voice channel before using the commands<br/>
-Prefix each command with `Mr/mr`
+Prefix each command with `mr`
 
 
 `jessi` | `class` | `feeling` | `sayhello` | `said` |
@@ -22,19 +22,19 @@ Prefix each command with `Mr/mr`
 
 A Karuthu for you <br/>
 Get a random voice
-Type: `Mr/mr luck`
+Type: `mr luck`
 
 
 For TTS
-Use: `Mrt/mrt`
+Use: `mrt`
 
 
 To know briefly about something
-Use: `Mr/mr wiki` and type the thing you wanna know
+Use: `mr wiki` and type the thing you wanna know
 
 
 To disconnect me
-Use: `Mr/mr leave`
+Use: `mr leave`
 <br />
 <br/>
 
