@@ -12,7 +12,7 @@ Made with love by @Joshuafrankle and @fabianferno
 
 <br>
 
-# Or Read our docs to run it on your own server.
+# Or Read our docs to run it on your own machine if the bot is offline.
 
 <br/>
 <img src="https://media3.giphy.com/media/6pcaPznuZBtL2/giphy.gif">
