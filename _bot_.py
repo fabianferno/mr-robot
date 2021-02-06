@@ -171,7 +171,6 @@ com = ["jessi", "class", "feeling", "sayhello", "said", "gd", "johnny", "rascal"
        "perumai"]
 
 
-
 @bot.event
 async def on_message(message):
     if message.content == "hello world":
@@ -261,7 +260,7 @@ async def random_(ctx):
     if voice:
         await voice.disconnect()
     vc = await channel.connect()
-    vc.play(discord.FFmpegPCMAudio(ran),
+    vc.play(discord.FFmpegPCMAudio(path+ran),
             after=lambda e: print(f'Done\n', '_' * 10))
 
 
