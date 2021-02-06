@@ -275,7 +275,7 @@ async def vambu(ctx):
         vc.play(discord.FFmpegPCMAudio(source="./voices/vambu.mp3"),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="jesinsonna")
@@ -289,7 +289,7 @@ async def jesin_sonna(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/jesin_sonna.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="jesinloosu")
@@ -303,7 +303,7 @@ async def jesin_loosu(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/jesin_loosu.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="jesinokay")
@@ -317,7 +317,7 @@ async def jesin_okay(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/jesin_okay.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="varutham")
@@ -331,7 +331,7 @@ async def varutham(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/varutham.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="perumai")
@@ -345,7 +345,7 @@ async def perumai(ctx):
         vc.play(discord.FFmpegPCMAudio("./voices/perumai.mp3"),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="stay")
@@ -359,7 +359,7 @@ async def stay(ctx):
         vc.play(discord.FFmpegPCMAudio("./voices/stay.mp3"),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="plan")
@@ -373,7 +373,7 @@ async def plan(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/plan.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="theone")
@@ -387,7 +387,7 @@ async def the_one(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/theone.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="ignore100")
@@ -401,7 +401,7 @@ async def ignore100(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/ignore100.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="willing")
@@ -415,7 +415,7 @@ async def willing(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/willing.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="unakenapa")
@@ -429,7 +429,7 @@ async def unakenapa(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/unakenapa.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="identity")
@@ -443,7 +443,7 @@ async def identity(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/identity_theft.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="usupethi")
@@ -457,7 +457,7 @@ async def usupethi(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/usupethi.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="riddle")
@@ -471,7 +471,7 @@ async def riddle(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/riddle.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="ahaan")
@@ -485,7 +485,7 @@ async def ahaan(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/ahaan.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="nonsense")
@@ -499,7 +499,7 @@ async def nonsense(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/nonsense.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="name")
@@ -513,7 +513,7 @@ async def _name(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/mr.robot.wav'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='kanmani', pass_context=True)
@@ -527,7 +527,7 @@ async def kanmani(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/Kanmani-Anbodu.mp3'),
                 after=lambda e: print(f'Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='jessi', pass_context=True)
@@ -540,7 +540,7 @@ async def jessi(ctx):
         vc = await channel.connect()
         await vc.play(discord.FFmpegPCMAudio('./voices/jessi.mp3'), after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='yeo', pass_context=True)
@@ -554,7 +554,7 @@ async def yeo(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/raja_rani.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='tension', pass_context=True)
@@ -568,7 +568,7 @@ async def tension(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/less_tension_more_work.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='shobba', pass_context=True)
@@ -582,7 +582,7 @@ async def shobba(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/shobba.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='thirumba', pass_context=True)
@@ -596,7 +596,7 @@ async def thirumba(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/thirumba.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='ponnu', pass_context=True)
@@ -610,7 +610,7 @@ async def ponnu(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/ponnu.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='ready', pass_context=True)
@@ -624,7 +624,7 @@ async def ready(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/ready.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='class', pass_context=True)
@@ -638,7 +638,7 @@ async def cl(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/vasulraja_class.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='feeling', pass_context=True)
@@ -652,7 +652,7 @@ async def feel(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/each_girl_each_feel.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='sayhello', pass_context=True)
@@ -666,7 +666,7 @@ async def hfrnd(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/Say_Hello_To_My_Little_Friend.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='said', pass_context=True)
@@ -680,7 +680,7 @@ async def said(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/said.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='gd', pass_context=True)
@@ -694,7 +694,7 @@ async def gd(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/im_gd.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='johnny', pass_context=True)
@@ -708,7 +708,7 @@ async def shine(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/here_jonny.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='rascal', pass_context=True)
@@ -722,7 +722,7 @@ async def rascal(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/rascal.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='alone', pass_context=True)
@@ -736,7 +736,7 @@ async def alone(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/alone.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='msg', pass_context=True)
@@ -750,7 +750,7 @@ async def msg(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/message.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='fam', pass_context=True)
@@ -764,7 +764,7 @@ async def fam(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/laaa_la_la_laa.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='oho', pass_context=True)
@@ -778,7 +778,7 @@ async def oho(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/diluwale.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='happy', pass_context=True)
@@ -792,7 +792,7 @@ async def happy(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/be_happy.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='canada', pass_context=True)
@@ -806,7 +806,7 @@ async def canada(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/canadala_periya_drums_player.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='yblood', pass_context=True)
@@ -820,7 +820,7 @@ async def yblood(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/why_blood_same_blood.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='money', pass_context=True)
@@ -834,7 +834,7 @@ async def money(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/money_comes_today_goes_tomorrow.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='steve', pass_context=True)
@@ -848,7 +848,7 @@ async def steve(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/i_am_steve_wak.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='bestfrnd', pass_context=True)
@@ -862,7 +862,7 @@ async def best_frnd(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/i_am_your_best_frnd.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='rama', pass_context=True)
@@ -876,7 +876,7 @@ async def raama(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/aiyo_rama.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='pavam', pass_context=True)
@@ -890,7 +890,7 @@ async def pavam(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/ungala_paatha_paavama_iruku.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='coffee', pass_context=True)
@@ -904,7 +904,7 @@ async def sukku(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/sukku_coffee.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='sangeetha', pass_context=True)
@@ -918,7 +918,7 @@ async def sng(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/sangeetha.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='amuku', pass_context=True)
@@ -932,7 +932,7 @@ async def dumuk(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/amal_dumal.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='thala', pass_context=True)
@@ -946,7 +946,7 @@ async def thala(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/ena_thala.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name='pokiri', pass_context=True)
@@ -960,7 +960,7 @@ async def pok(ctx):
         vc.play(discord.FFmpegPCMAudio('./voices/pokkiri.mp3'),
                 after=lambda e: print('Done\n', '_' * 10))
     except AttributeError:
-        await ctx.send("Connect yourself to a voice channel")
+        await ctx.send("Join a voice channel")
 
 
 @bot.command(name="s")
