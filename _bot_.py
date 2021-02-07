@@ -3,6 +3,7 @@ import random
 import os
 import io
 import wikipedia
+from time import sleep
 from discord import FFmpegPCMAudio
 from PIL import Image, ImageDraw, ImageFont
 from gtts import gTTS
@@ -176,11 +177,14 @@ async def on_message(message):
     if message.content == "hello world":
         channel = bot.get_channel(699097908846526474)
         await channel.send(f'Did someone call me?')
-    if message.content == "mr jesinsonna":
+    if message.content == "mr jesinsonna" or message.content == "Mr jesinsonna":
+        sleep(1)
         await message.delete()
-    if message.content == "mr jesinokay":
+    if message.content == "mr jesinokay" or message.content == "Mr jesinokay":
+        sleep(1)
         await message.delete()
-    if message.content == "mr jesinloosu":
+    if message.content == "mr jesinloosu" or message.content == "Mr jesinloosu":
+        sleep(1)
         await message.delete()
     await bot.process_commands(message)
 
