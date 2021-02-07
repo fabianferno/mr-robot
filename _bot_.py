@@ -176,6 +176,12 @@ async def on_message(message):
     if message.content == "hello world":
         channel = bot.get_channel(699097908846526474)
         await channel.send(f'Did someone call me?')
+    if message.content == "mr jesinsonna":
+        await message.delete()
+    if message.content == "mr jesinokay":
+        await message.delete()
+    if message.content == "mr jesinloosu":
+        await message.delete()
     await bot.process_commands(message)
 
 
