@@ -9,13 +9,20 @@ from PIL import Image, ImageDraw, ImageFont
 from gtts import gTTS
 from discord import File
 from datetime import datetime
+import mysql.connector
 from discord.ext import commands
 from discord.utils import get
 
 
+
+
+
 TOKEN = os.environ["DISCORD_TOKEN"]
+
 bot = commands.Bot(command_prefix=['mr ', 'Mr ', 'mr', 'Mr'])
 client = discord.Client()
+
+
 
 '''@bot.event
 async def on_member_join(member):
@@ -207,6 +214,26 @@ async def suicide(ctx):
     print(f"{ctx.author} shut me down\n")
     exit()
 
+@bot.command(name="pingmysql")
+async def pingmysql(ctx):
+    db = mysql.connector.connect(host = 'vpn.opencloud.pattarai.in', user = 'tux', password = 'licet@123', database = 'stretch')
+    if (db.is_connected()):
+      status = "The MySQL DB is up and running"
+    else:
+      status = "ALERT! MySQL DB is DOWN ;/"
+
+    message = discord.Embed(
+        title="vpn.opencloud.pattarai.in",
+        description="Pattarai's Cloud Infra at your service",
+        color=ctx.author.color,
+    )
+    message.set_author(
+        name="Open Cloud",
+        icon_url="https://raw.githubusercontent.com/pattarai/pattarai-media/main/stock/PNG/purple_circle.png"
+    )
+    message.add_field(name="Connection Status", value=status)
+    await ctx.send(embed=message)
+    
 
 @bot.command(name="wiki")
 async def wiki(ctx, *w):

@@ -20,3 +20,4 @@ typing-extensions==3.7.4.3
 urllib3
 wikipedia==1.4.0
 yarl==1.6.3
+MySQLdb
