@@ -13,34 +13,6 @@ In charge of humour, I am.
 Make sure you are connected to a voice channel before using the commands<br/>
 Prefix each command with `mr`
 
-### Commands<br/>
-`jessi` | `class` | `feeling` | `sayhello` | `said` |
-`gd` | `johnny` | `rascal` | `msg` | `coffee` | `sangeetha` |
-`thala` | `amuku` | `yeo` | `money` | `pokiri` | `happy` |
-`oho` | `fam` | `pavam` | `rama` | `canada` | `yblood` |
-`steve` | `bestfrnd` | `thirumba` | `ponnu` | `ready` |
-`tension` | `nonsense` | `riddle` | `identity` |
-`ahaan` | `vambu` | `varutham` | `shobba` | `usupethi` |
-`unakenapa` | `ignore100` | `plan` | `stay` | `perumai` |
-
-
-A Karuthu for you <br/>
-Get a random voice
-Type: `mr luck`
-
-
-For TTS
-Use: `mrt`
-
-
-To know briefly about something
-Use: `mr wiki` and type the thing you wanna know
-
-
-To disconnect me
-Use: `mr leave`
-
-
 <br>
 
 # Or Read our docs to run it on your own machine.
@@ -65,4 +37,3 @@ Steps to run:
     ```py 
         python _bot_.py
     ```
-5. Use `mr about` to display the list of commands
