@@ -1025,13 +1025,13 @@ async def bring(ctx):
     print("Done\n")
 
 
-@bot.command(name='ping')
-async def _ping_(ctx):
-    ping_ = bot.latency
-    ping = round(ping_ * 1000)
-    message = discord.Embed(
-        title=f"My ping is {ping}ms")
-    await ctx.send(embed=message)
+# @bot.command(name='ping')
+# async def _ping_(ctx):
+#     ping_ = bot.latency
+#     ping = round(ping_ * 1000)
+#     message = discord.Embed(
+#         title=f"My ping is {ping}ms")
+#     await ctx.send(embed=message)
 
 
 @bot.command(name='love')
